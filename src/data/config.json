@@ -1,0 +1,18 @@
+{
+    "webdriver": {
+      "width": 1920,
+      "height": 1080
+    },
+    "screenshot": {
+      "format": "png",
+      "quality": 80
+    },
+    "output": {
+      "excel_prefix": "crawl_result",
+      "screenshot_prefix": "page_shot"
+    },
+    "crawler": {
+      "delay": 1,
+      "max_pages": 1000
+    }
+  }

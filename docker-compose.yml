@@ -1,0 +1,16 @@
+version: "3.9"
+
+services:
+  crawler:
+    build:
+      context: "./"
+      dockerfile: "docker/Dockerfile"
+    # command: ["/sbin/init"]
+    command: ["bash"]
+    # ports:
+    #   - 8080:8080
+    # privileged: true
+    tty: true
+    volumes:
+      - ./src:/app/src
+      - ./dist:/app/dist
